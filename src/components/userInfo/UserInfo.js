@@ -21,6 +21,7 @@ class UserInfo extends Component {
     //     </div>
     //   );
     // }
+    console.log('map 3', this.props)
     if (this.props.action === "show") {
       return (
         <div className="dotted">

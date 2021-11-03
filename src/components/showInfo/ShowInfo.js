@@ -7,6 +7,7 @@ class ShowInfo extends Component {
     //     );
     // }
     render() {
+      console.log('map 4', this.props);
         if (this.props.action === "show") {
             return (
                 <button onClick={this.props.onClick}>Click to show on/off relation</button>
